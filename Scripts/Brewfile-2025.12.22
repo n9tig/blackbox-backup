@@ -1,0 +1,30 @@
+brew "btop"
+brew "dungeon"
+brew "htop"
+brew "libaacs"
+brew "mas"
+brew "nano"
+brew "neofetch"
+brew "zork"
+brew "zsh"
+brew "zsh-autocomplete"
+cask "gimp"
+cask "iterm2"
+cask "vlc"
+mas "Baldur's Gate", id: 568196938
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Chess Deluxe", id: 562287836
+mas "Developer", id: 640199958
+mas "Friendly Streaming", id: 553245401
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Surfshark", id: 1437809329
+mas "Swift Playground", id: 1496833156
+mas "TestFlight", id: 899247664
+mas "TextNow", id: 1277776968
+mas "Valheim", id: 1554294918
+mas "Xcode", id: 497799835

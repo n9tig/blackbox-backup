@@ -1,0 +1,23 @@
+# **************************
+# Custom N9TIG .zshrc file *
+# Updated 2025.04.22       *
+# **************************
+
+# History file for zsh
+HISTFILE=~/.zsh_history
+
+# How many commands to store in history
+HISTSIZE=1000000
+SAVEHIST=1000000
+setopt SHARE_HISTORY
+
+# Auto-Complete activate
+# Requires brew install zsh-autocomplete
+source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+# Original echo $PROMPT = %n@%m %1~ %#
+# Custom 2-Line prompt
+# Line 1 shows user@host in bold blue followed by pwd in italic green
+# Line 2 shows internationl date and 24-hr time with seconds in bold yellow followed by the prompt interface in white
+PS1="%F{blue}%B%n@%m%b%f %F{green}%0~%f 
+%F{yellow}%B[%b%D %*%B]%b%f %F{grey}%B %# > %b%f"
