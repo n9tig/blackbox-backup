@@ -30,9 +30,15 @@ brew info		--> Display brief statistics of Homebrew installation
 brew update		--> Fetch newest version of Homebrew and all formulae
 brew upgrade		--> Upgrade outdated casks and formulae
 
-*git Commands*
-*current version 2.50.1 (Apple Git-155)
-
+*Git Commands*
+*original version 2.50.1	(Apple Git-155)
+*current version 2.52.0		(Updated 2026.01.11from Homebrew)
+git help (command)	--> opens manpage for git command
+git config --list	--> list all variables set in config file
+git init 		--> Initializes git repository in current directory
+git add (file/folder)	--> Adds contents to index
+git commit -m "message"	--> Commits changes to repository with a message "text"
+git log			-->
 
 **Homebrew Installed Programs**
 btop			-- System Resource Monitor
